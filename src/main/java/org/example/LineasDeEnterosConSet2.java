@@ -37,7 +37,6 @@ public class LineasDeEnterosConSet2 {
             conjuntoDeListas.add(listaDeEnteros);
         }
 
-        // Llamar al método estático para encontrar la lista más larga
         List<Integer> listaMasLarga = encontrarListaMasLarga(conjuntoDeListas);
         System.out.println("La lista más larga es:");
         listaMasLarga.forEach(numero -> System.out.print(numero + " "));
